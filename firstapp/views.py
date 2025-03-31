@@ -8,3 +8,6 @@ def home_view(httprequest):
 
 def firstapp_home(httprequest):
     return render(httprequest, 'firstapp/home.html')
+
+def signin_view(httprequest):
+    return render(httprequest, 'firstapp/signin.html')
